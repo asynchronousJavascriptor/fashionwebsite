@@ -292,4 +292,31 @@ html,body{
     #newfashion #image{
         width: calc(100% - 30px);
     }
+    #textelem{
+        display: none;
+    }
+    #blocks{
+        margin-top: 100%;
+        right: 0;
+    }
+    #blocks img{
+        width: 270px;
+        top: 10%;
+        left: -10%;
+    }
+}
+
+@media(max-width: 370px){
+    #heading{
+        bottom: 0;
+    }
+    #heading #linewaaladiv{
+        left: 1%;
+    }
+    #newfashion{
+        height: 300px;
+    }
+    #verticalline{
+        width: 300px;
+    }
 }
